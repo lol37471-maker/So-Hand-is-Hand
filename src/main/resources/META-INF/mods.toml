@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="lol37471, AutoMods"
+logoFile="So_Hand_is_Hand.png"
+description='''使得你能双手一起使用物品，只要确保副手持有的物品是右键互动，而主手武器不会占用右键即可。
+
+Use items with both hands at the same time, as long as the offhand item is right-click interactive and the mainhand weapon does not occupy right-click.'''
+[[dependencies.${mod_id}]]
+modId="forge"
+mandatory=true
+versionRange="[${forge_version},)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version}]"
+ordering="NONE"
+side="BOTH"
